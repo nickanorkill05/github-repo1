@@ -1,0 +1,33 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  :root {
+    --primary-color: #cecece;
+    --border: #000000;
+  }  
+
+  .bg-primary-color {
+    background-color: var(--primary-color); /* Use the primary color variable for the background */
+  }  
+ 
+  main, nav 
+  {
+    @apply max-w-6xl mx-auto my-12;
+  }
+
+  p
+  {
+    @apply mt-2;
+  }
+
+  h1 
+  {
+    @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
+  }
+
+  h2
+  {
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight
+    transition-colors first:m-0;
+  }
