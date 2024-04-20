@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Move1 from './move1';
 import Move2 from './move2';
 
-export default function movemain() {
+export default function MoveMain() {
     const [showCardHolder, setShowCardHolder] = useState(false);
     const [showNextButton, setShowNextButton] = useState(true);
   
